@@ -71,12 +71,36 @@ Write a program in the file _lib/gen_stooges.rb_ that will:
 * If not clear the hash.
 
 ### Demo
-Create a file _relative_contacts.rb_.   
-Finished version is  _relative_contacts_done.rb_
 
-### Demo
-Modify the file hash_methods.rb.  
-Finished version is in hash_methods_done.rb
+Lets create some nested data structures, Arrays and Hashes.
+
+* Create a file *lib/stooges_hash_better.rb*
+* Create 3 hashes in an array, one for each stooge.  
+	```
+	stooges = [
+	   {
+    	name: "Curly Howard",
+	    age: 23,
+    	address: "33 Main St, Boston, MA"
+	  },
+	  {
+	    name: "Larry Howard",
+	    age: 35,
+	    address: "15 Porter St, Cambridge, MA"
+	  },
+	  {
+	    name: "Moe Howard",
+	    age: 44,
+	    address: "23 Elm St, Lowell, MA"
+	  }
+	]
+	```
+
+* Show me each stooge in the array.  
+
+* Show me the entries for each stooge. 
+* Find the stooges that are 44 yrs old.
+	
 
 ### Lab
 Modify the file _employment_lab.rb_. The directions are in the comments.  
