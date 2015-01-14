@@ -18,7 +18,7 @@ By the end of this, students should be able to:
 ### Demo
 
 
-* Create a file _lib/stooges.rb_
+* Create a file `lib/stooges.rb`
 * Create a Hash with 3 entries. 
 * Each entry will have a name key and full name string: `stooges = {curly: "Curly Howard", ...}`
 * Show all the keys: `stooges.keys`
