@@ -53,17 +53,22 @@ By the end of this, students should be able to:
 * Check to see if the stooges hash is empty?  
 	```stooges.empty?```
 
+* Note that keys can be any object, but this is rare. Keys are typically symbols.
 
 ### Lab 
-Write a program in the file _squares_hash.rb_ that:  
-* Prompts the user for a minimum and maximum number.  
-* Generates a Hash that has key-value pairs, or entries, where.    
-	* Each key in a pair is a integer between the min and max entered.  
-	* Each value in the pair is the square of key in that pair. But this value should be instance of String. 
-* Show/print the hash generated.
+Write a program in the file _lib/gen_stooges.rb_ that will:    
 
-### Lab
-Modify _choose_state.rb_ to prompt and get a New England state code from the user. Then print out the name of the state.  
+* Create 3 stooges by:  
+	1. Prompt the user for a stooge's name,like "Larry File".  
+	2. Create a hash entry for each stooge where:  
+		* The key is the stooge's first name. This key must be a Ruby symbol.  
+		* The value is the full name of the stooge.  
+	3. Show/print the stooges hash generated.
+* Show all the keys.
+* Show all the values
+* Remove one of the stooges and print the stooges.
+* Is the hash empty?
+* If not clear the hash.
 
 ### Demo
 Create a file _relative_contacts.rb_.   
