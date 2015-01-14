@@ -1,14 +1,4 @@
-## Ruby Symbols
-Symbols are immutable strings. And they save memory by not creating                          new object for each value.                                                                   
-
-Symbols work well when we want to refer to the same thing string multiple times throughout a program.  
-  
-For example, if we had to use the string "foo" in many                   places in the program it would create an object for each time we                                used the string "foo". You may want to use the symbol :foo instead.
-
-Symbols work well as Hash Keys. 
-
-### Demo
-Go thru symbols.rb
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 ## Ruby Hashes
 
@@ -16,9 +6,53 @@ The Ruby Hash class implements a "data structure" that provides a
 collection of key-value pairs. The keys are used to 'index', or find,
 the value associated with the value.
 
+## Objectives
+
+By the end of this, students should be able to:
+
+- Create a Hash.
+- Add, remove, retrieve and modify hash entries/elements.
+- Why keys are symbols.
+- Use old, hash rocket =>, and new syntax.
+
 ### Demo
-Create a file _simple_hash.rb_.   
-Finished version is  _simple_hash_done.rb_
+
+
+* Create a file _lib/stooges.rb_
+* Create a Hash with 3 entries. 
+	* Each entry will have a name key and full name string.  
+	
+	```stooges = {curly: "Curly Howard", ...}```
+* Show all the keys  
+	```stooges.keys```
+* Show all the values  
+	```stooges.values```
+* Show one entry in the hash, lookup by key.  
+	```stooges[:moe]```
+* Add a new entry in the hash.
+* Add a new entry for the stooges first show.
+	```stooges[:first_show] = Date.parse("11/12/1929")```
+	
+	Notice that the keys are typically symbols but the 
+	values of each entry can be any object!
+	
+* Add a new stooge.  
+	``` stooges[:joe] = 'Joe Smoe'```
+* Retrieve the value, name, of Joe.  
+	```stooges[:joe]```
+* Add an array of all the stooges ages.  
+	```stooges[:ages] = [33, 29, 44, 34]```
+
+	Notice how values can be arrays!!
+* Access the second age   
+	``` stooges[:age][1]```
+	
+* Remove Joe as a Stooge. 
+	```stooges.delete(:joe)
+
+* Check to see if the stooges hash is empty?  
+	```stooges.empty?```
+
 
 ### Lab 
 Write a program in the file _squares_hash.rb_ that:  
