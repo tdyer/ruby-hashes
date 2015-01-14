@@ -1,65 +1,40 @@
-#########################################
-# https://github.com/github/gitignore/blob/master/Ruby.gitignore
-#########################################
 *.gem
 *.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
-
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
-
-#########################################
-# https://raw2.github.com/github/gitignore/master/Rails.gitignore
-#########################################
-*.rbc
-*.sassc
-.sass-cache
-capybara-*.html
-.rspec
-/log
-/tmp
-/db/*.sqlite3
-/public/system
+/.config
 /coverage/
-/spec/tmp
-**.orig
-rerun.txt
-pickle-email-*.html
-config/secrets.yml
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
 
 ## Environment normalisation:
-/.bundle
-/vendor/bundle
+/.bundle/
+/lib/bundler/man/
 
-# these should all be checked in to normalise the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-
-#########################################
-# Extras, not from github
-#########################################
 .env
+.envrc
 .DS_Store
-Desktop.ini
-Thumbs.db
-.Spotlight-V100
-.Trashes
-/log/*.log
-
 # Emacs temp files
 *~
 *#*
