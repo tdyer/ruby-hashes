@@ -38,7 +38,7 @@ By the end of this, students should be able to:
 * Note that keys can be any object, but this is rare. Keys are typically symbols.
 
 ### Lab 
-Write a program in the file _lib/gen_stooges.rb_ that will:    
+Write a program in the file `lib/gen_stooges.rb` that will:    
 
 * Create 3 stooges by:  
 	1. Prompt the user for a stooge's name,like "Larry File".  
